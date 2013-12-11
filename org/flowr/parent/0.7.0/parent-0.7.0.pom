@@ -22,6 +22,11 @@
 			<name>Internal Repository</name>
 			<url>${internal.repo.path}</url>
 		</repository>
+<!-- 		<repository> -->
+<!-- 			<id>flowr.repo</id> -->
+<!-- 			<name>isx' Maven Repositories</name> -->
+<!-- 			<url>https://raw.github.com/krasv/flowr.maven.repo/</url> -->
+<!-- 		</repository> -->
 	</distributionManagement>
 
 	<build>
