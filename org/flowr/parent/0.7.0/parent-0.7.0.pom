@@ -15,6 +15,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<compileSource>1.6</compileSource>
 	</properties>
+	
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>Internal Repository</name>
+			<url>${internal.repo.path}</url>
+		</repository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
@@ -33,7 +41,7 @@
 				<executions>
 					<execution>
 						<id>attach-sources</id>
-						<!--phase>package</phase-->
+						<!--phase>package</phase -->
 						<goals>
 							<goal>jar</goal>
 						</goals>
